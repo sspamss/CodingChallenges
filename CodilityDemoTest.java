@@ -32,8 +32,7 @@ class Solution
             check++;
         }
 
-        // Getting here means the array is not missing any consecutive numbers
-        // Codility wants you to return the last number of the array plus one
+        // The array is not missing any consecutive numbers
         return check;
     }
 }
