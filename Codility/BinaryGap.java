@@ -2,7 +2,6 @@
 // 12/27/2023
 // Solution to Codility: Binary Gap
 
-
 import java.util.*;
 
 class Solution
