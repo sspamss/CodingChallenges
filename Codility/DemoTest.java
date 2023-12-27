@@ -1,6 +1,6 @@
 // Pam Kitsuwan
 // 12/26/2023
-// Solution to Codility Demo Test
+// Solution to Codility: Demo Test
 
 import java.util.*;
 
