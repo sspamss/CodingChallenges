@@ -9,7 +9,7 @@ class Solution
     public int solution(int N)
     {
         boolean seenBoundary = false;
-        int currSolution = 0, finSolution = 0;
+        int curSolution = 0, finSolution = 0;
 
         // Get binary of a number
         String result = Integer.toBinaryString(N);
@@ -18,16 +18,16 @@ class Solution
             // Boundary encountered
             if (result.charAt(i) == '1') {
                 // Keep the current length of the longest gap
-                finSolution = Math.max(finSolution, currSolution);
+                finSolution = Math.max(finSolution, curSolution);
                 // Reset the current gap counter
-                currSolution = 0;
+                curSolution = 0;
                 // First 1 (gap boundary) has been encountered
                 seenBoundary = true;
             }
             // Gap encountered
             if (seenBoundary && result.charAt(i) == '0')
                 // Increment our current gap counter
-                currSolution++;
+                curSolution++;
         }
 
         // Return the length of the longest gap
