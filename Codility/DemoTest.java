@@ -26,7 +26,7 @@ class Solution
             // If we have duplicated numbers in the array, then we skip over that
             if (0 < i && A[i - 1] == A[i]) continue;
 
-            // We can check if we are missing a value by checking it against the loop
+            // Check if we are missing a value by matching it against the counter
             if (A[i] != check) return check;
 
             check++;
