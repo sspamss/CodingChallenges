@@ -4,7 +4,7 @@ class Solution
 {
     public int solution(int[] A)
     {
-        int curSolution = 0;, finSolution = Integer.MAX_VALUE;
+        int curSolution = 0, finSolution = Integer.MAX_VALUE;
         int arrSum = 0, frontSum = 0, backSum = 0;
 
         // Get the sum of the given array
