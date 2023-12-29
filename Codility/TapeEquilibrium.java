@@ -1,3 +1,7 @@
+// Pam Kitsuwan
+// 12/28/2023
+// Solution to Codility: Tape Equilibrium
+
 import java.util.*;
 
 class Solution
