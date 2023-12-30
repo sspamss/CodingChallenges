@@ -15,7 +15,7 @@ class Solution
         for (int i = 0; i < A.length; i++)
         {
             // Check if froggy has already seen the leaf
-            if (leafFreq[A[i] - 1] == false)
+            if (!leafFreq[A[i] - 1])
             {
                 // Froggy has seen leaf!
                 leafFreq[A[i] - 1] = true;
