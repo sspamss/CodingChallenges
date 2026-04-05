@@ -18,4 +18,4 @@ def calculate_score(elements):
     total_score += element_score
 
   # Sum of element scores rounded to 1 decimal place
-  return round(total_score, 1_
+  return round(total_score, 1)
