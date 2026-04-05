@@ -1,3 +1,8 @@
+# Daily Challenge: March 6, 2026
+
+# There are three parts to scoring a figure skating competition:
+# Technical Element Score (TES), Program Component Score (PCS), and Deduction (DED)
+# For this challenge, create a function to calculate the TES
 def calculate_score(elements):
   # Sum of element scores
   total_score = 0
