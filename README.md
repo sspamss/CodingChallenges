@@ -1,2 +1,4 @@
 # CodingChallenges
-My solutions to public coding challenges
+My solutions to public coding challenges:
+- Codédex
+- Codility
