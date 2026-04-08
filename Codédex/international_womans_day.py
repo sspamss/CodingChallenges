@@ -1,3 +1,8 @@
+# Daily Challenge: March 8, 2026
+# Completed On: April 8, 2026
+
+# Analyze trends and quantify each company's progress in “closing the gap"
+# using three metrics: net change per year, trend, and dips
 def analyze(percentages):
   # Length of percentages array
   len_pct = len(percentages)
