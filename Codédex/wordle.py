@@ -1,4 +1,5 @@
 # Daily Challenge: March 2, 2026
+# Completed On: April 5, 2026
 
 # Given two strings, secret and guess, which are guaranteed to be of the same length (5 letters),
 # determine how many characters are correct and in the exact same position
