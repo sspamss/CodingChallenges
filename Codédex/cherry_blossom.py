@@ -1,8 +1,8 @@
 # Daily Challenge: March 20, 2026
 # Completed On: April 7, 2026
 
-# Calculate the average temperature using that day and the previous 4 days.
-# Return the first 1-indexed day where this 5-day rolling average exceeds 15, or -1 if none do.
+# Calculate the average temperature using that day and the previous 4 days
+# Return the first 1-indexed day where this 5-day rolling average exceeds 15, or -1 if none do
 def cherry_blossoms(temps):
   # If temps is empty, then avg def did not clear 15°C
   if temps is None: return -1
