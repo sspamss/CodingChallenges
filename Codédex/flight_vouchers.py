@@ -5,8 +5,7 @@
 # Skip any voucher where delay is greater than max hours willing to wait
 # Return index of best valid voucher, or -1 if no option qualifies
 def pick_voucher(vouchers, delays, max_wait):
-  best_index = -1
-  best_rate = -1
+  best_index = -1; best_rate = -1
 
   for index, (voucher_amount, delay_hours) in enumerate(zip(vouchers, delays)):
     # Skip option because wait time is longer than max willing to wait time
@@ -20,5 +19,4 @@ def pick_voucher(vouchers, delays, max_wait):
       best_rate = rate
       best_index = index
 
-  # Return index of best valid voucher, or -1 if none qualify
   return best_index
