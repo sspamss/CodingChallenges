@@ -2,6 +2,7 @@
 # Completed On: April 24, 2026
 
 # Find longest consecutive kitten group where max - min stays within limit
+# Return length of longest group of consecutive kittens that can stay calm
 def cuddly_kittens(kittens, limit):
   # Number of longest group; where current group starts
   longest = 0; left = 0
