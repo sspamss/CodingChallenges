@@ -1,4 +1,2 @@
-# CodingChallenges
-My solutions to public coding challenges:
-- Codédex
-- Codility
+# Coding Challenges
+This repository showcases my solutions to public coding challenges from platforms like Codédex and Codility. These exercises help me build strong problem-solving skills, reinforce algorithmic thinking, and write clean, efficient code. While I primarily solve problems independently, I occasionally reference external resources such as Google and ChatGPT to debug edge cases, refine logic, and improve overall code quality.
