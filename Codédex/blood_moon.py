@@ -1,8 +1,8 @@
 # Daily Challenge: March 3, 2026
 # Completed On: April 23, 2026
 
-# Given a timestamp in the format "HH:MM" (24-hour time),
-# predict the next 3 times a blood moon will occur given that they are 2 hours and 48 minutes apart
+# Given a timestamp in the format "HH:MM" (24-hour time), predict the next 3 times
+# a blood moon will occur given that they are 2 hours and 48 minutes apart
 import datetime
 
 def blood_moon(time):
